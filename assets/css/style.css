@@ -1,0 +1,131 @@
+body {
+	background-color: #4aaaa5;
+	color: #777777;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+.header {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: rgb(100,200,200);
+}
+
+li.name {
+	float: left;
+	margin-left: 200px;
+}
+li a.active {
+	background-color: rgb(100,200,200);
+	color: white;
+}
+
+ li a:hover:not(.active) {
+		background-color: #ddd;
+}
+.margin-right {
+	margin-right: 200px;
+}
+
+
+.full {
+	width: 960px;
+  	margin-top: 40px;
+  	margin-left: 200px;
+  	border-color: 1px solid #dddddd;
+  	
+}
+section h1 {
+	margin-left: 50px;
+	padding: 20px;
+	font-size: 24px;
+}
+
+p {
+	padding: 20px;
+	text-align: justify;
+	font-family: Helvetica;
+}
+
+.content {
+	width: 610px;
+	background-color: #ffffff;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+img#self {
+	float: left;
+	margin-right: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+img#meow {
+	float: right;
+	margin-left: 20px;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+	
+.side {
+	background-color: #ffffff;
+	width: 250px;
+	padding: 20px;
+}
+
+.content, .side {
+	float: left;
+}
+
+#head2 {
+	font-size: 24px;
+}
+
+button:hover {
+	display: block;
+	background-color: #888;
+}
+
+.icon {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+footer {
+	background-color: #666666;
+	color: white;
+	clear: both; 
+}
+
+#foot {
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+
+
